@@ -4,8 +4,8 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0;
-    padding: 0;
+}
+
+.header-logo {
+    max-width: 150px;
 }
