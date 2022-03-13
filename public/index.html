@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../secure/css/app.css">
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid d-flex flex-column flex-fill">
       <header class="row navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="navbar-brand header-logo">
           <a href="#"><img src="../secure/assets/img/logo-solidarite-colombelloise-dark.png"
@@ -34,12 +34,60 @@
           </form>
         </nav>
       </header>
-      <main class="row">
-        
+      <main class="flex-grow-1 row">
+        <section class="jumbotron text-justify">
+          <h1 class="display-4">Qui sommes-nous?</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Suspendisse dapibus tortor lorem. Cras ornare faucibus sem sed mattis. Vivamus vestibulum.</p>
+          <hr class="my-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus, risus ut malesuada euismod,
+            nulla massa tristique neque, quis dignissim tellus diam nec arcu. Morbi in orci vel ipsum blandit mattis.
+            Nunc rhoncus elit ac lorem faucibus tempus. Aenean commodo magna eu efficitur vestibulum. Integer vitae
+            ornare est. Curabitur eget felis sollicitudin, ornare lacus sed, rutrum felis. Morbi scelerisque sed nisl
+            sed convallis. Nam sit amet libero metus. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos.</p>
+          <p>Vestibulum venenatis consequat est, at blandit tellus maximus vitae. Donec velit arcu, fermentum quis leo
+            in, semper finibus tortor. In molestie odio vel purus tincidunt, sed rutrum massa volutpat. Nullam imperdiet
+            arcu quis iaculis mollis. Aliquam erat volutpat. Ut sit amet ornare quam, vitae vestibulum diam. In accumsan
+            massa vel tellus eleifend accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia curae; Vestibulum diam est, ornare eu porttitor non, aliquam nec quam. Curabitur imperdiet magna sed
+            dolor tempor, in vestibulum lacus vestibulum. Aenean in pellentesque tellus, at tempor risus. Nullam auctor
+            lectus purus. Nullam hendrerit in metus vitae placerat. Donec tristique, ex lacinia accumsan fringilla,
+            magna odio venenatis felis, nec placerat mauris sapien in lorem.</p>
+          <p>Praesent auctor nulla in massa condimentum ornare. Fusce orci augue, dictum sed venenatis eu, imperdiet id
+            lectus. Duis et neque at magna viverra aliquet. Donec eleifend condimentum nunc vitae ultricies.
+            Fusce et rhoncus dui. Mauris sagittis elit non erat luctus, ac auctor mi cursus. In quis mauris euismod,
+            sollicitudin nulla vitae, tincidunt felis.</p>
+        </section>
+        <section class="col">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col col-lg-8">
+              <h1 class="display-4">Où nous trouver?</h1>
+              <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col col-lg-7">
+                  <p>Etiam id ante mattis, vestibulum nisl sit amet, blandit velit. Morbi quis metus maximus, mollis diam
+                    ultricies, vulputate massa. Integer a ligula varius, cursus elit ac, tempus lectus. Maecenas dictum
+                    magna porta eros imperdiet eleifend. Aliquam in pellentesque ante. Duis nec eleifend magna. Fusce at
+                    lorem varius.</p>
+                </div>
+                <div class="col col-lg-5 align-self-end">
+                  <blockquote class="blockquote text-right font-weight-bold">
+                    <p>&#8223;Vous souhaitez venir nous aider? Rejoignez-nous!&#8221;</p>
+                  </blockquote>
+                </div>
+              </div>          
+            </div>
+            <iframe
+              class="col col-lg-4"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1303.415369648281!2d-0.2974899!3d49.2037704!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480a6629a4dc23a7%3A0xe6ba45c7ac4f820c!2sMairie!5e0!3m2!1sfr!2sfr!4v1647210810655!5m2!1sfr!2sfr"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </section>
       </main>
       <footer class="row row-cols-1 row-cols-md-2 text-light bg-dark p-3">
         <div class="col col-md-8 align-self-center">
-          <blockquote class="blockquote mb-0">
+          <blockquote class="blockquote mb-0 font-weight-bold">
             <p class="mb-0">Toute personne dans le besoin mérite d'être soutenue</p>
           </blockquote>
         </div>

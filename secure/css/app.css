@@ -4,10 +4,19 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
 }
 
 .header-logo {
     max-width: 150px;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+main {
+    overflow-y: auto;
 }
 
 footer {
